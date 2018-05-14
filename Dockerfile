@@ -9,8 +9,6 @@ ARG SCALA_BINARY_DOWNLOAD_URL=http://downloads.lightbend.com/scala/${SCALA_VERSI
 
 # SBT related variables.
 ARG SBT_VERSION=1.1.5
-ARG SBT_BINARY_ARCHIVE_NAME=sbt-${SBT_VERSION}
-ARG SBT_BINARY_DOWNLOAD_URL=https://piccolo.link/${SBT_BINARY_ARCHIVE_NAME}.tgz
 
 # Spark related variables.
 ARG SPARK_VERSION=2.3.0
